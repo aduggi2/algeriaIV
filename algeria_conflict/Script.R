@@ -25,8 +25,7 @@ library(broom)
 library(car)
 
 # Don't forget to setwd()!
-# Delete before turning in:
-setwd("C:\\Users\\andre\\OneDrive - George Mason University - O365 Production\\algeria_conflict")
+
 # ---- 0.5. Load local data ----
 oil_imf <- read_csv("Data/Source Data/oil_imf.csv")
 conflict_data <- read_excel("Data/Source Data/Main Conflict Table.xls")
